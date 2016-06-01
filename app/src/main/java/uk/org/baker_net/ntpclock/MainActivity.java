@@ -105,7 +105,7 @@ public class MainActivity extends ActionBarActivity {
                 timeZone.setText(String.format("%+d:%02d",hours,mins));
             }
 
-            updateInterval=Integer.parseInt(sharedPref.getString("update_interval", ""));
+            updateInterval=Integer.parseInt(sharedPref.getString("update_interval", "60"));
 
             if (!offsetValid || (System.currentTimeMillis() - lastUpdate > updateInterval*1000)) {
                 new NtpTask().execute();
