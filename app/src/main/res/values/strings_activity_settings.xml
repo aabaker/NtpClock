@@ -1,0 +1,22 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Server settings -->
+    <string name="pref_header_servers">Servers</string>
+
+    <string name="pref_title_server1">Default NTP server</string>
+    <string name="pref_default_server1">0.pool.ntp.org</string>
+
+    <string name="pref_title_server2">Backup NTP server</string>
+    <string name="pref_default_server2">1.pool.ntp.org</string>
+
+    <!-- Other Settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_update_interval">Update Interval (s)</string>
+
+    <string name="pref_title_screen_on">Keep Screen On</string>
+
+</resources>

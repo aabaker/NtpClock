@@ -1,0 +1,40 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <EditTextPreference
+        android:key="server1"
+        android:title="@string/pref_title_server1"
+        android:defaultValue="@string/pref_default_server1"
+        android:selectAllOnFocus="true"
+        android:inputType="text"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <EditTextPreference
+        android:key="server2"
+        android:title="@string/pref_title_server2"
+        android:defaultValue="@string/pref_default_server2"
+        android:selectAllOnFocus="true"
+        android:inputType="text"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <EditTextPreference
+        android:key="update_interval"
+        android:title="@string/pref_title_update_interval"
+        android:defaultValue="60"
+        android:selectAllOnFocus="true"
+        android:inputType="number"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <CheckBoxPreference
+        android:key="screen_on"
+        android:title="@string/pref_title_screen_on"
+        android:defaultValue="true" />
+
+</PreferenceScreen>
